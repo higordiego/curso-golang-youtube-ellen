@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-var x int = 10
+var x int = 200
 
 func main() {
 
