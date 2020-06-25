@@ -13,6 +13,7 @@ type Pessoa struct {
 func (p *Pessoa) NomeCompleto() {
 	fmt.Printf("Nome: %v %v e sua Idade: %v", p.Nome, p.SobreNome, p.Idade)
 }
+
 func main() {
 
 	tipoPessoa := Pessoa{"Higo", "Diego", 10}
